@@ -1,12 +1,11 @@
-import "../Styles/input.css";
+import "../Styles/input.css"
 
-export default function Input ({type = "text", id, label}) {
+export default function TextArea ({id, label}) {
     return (
         <div className="inputWrapper">
             <label htmlFor={id}>{label}</label>
         
-            <input type={type}  id={id}/>
+            <textarea name={id} id={id}></textarea>
         </div>
     );
 }
-

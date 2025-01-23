@@ -1,0 +1,16 @@
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.2s background-color ease-in-out;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button:hover > svg {
+    transition: 0.2s fill ease-in-out;
+    fill: white;
+}
