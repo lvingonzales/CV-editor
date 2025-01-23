@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  height: 100%;
+}
+
+.form-body {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  border: 1px solid red;
+  width: clamp(900px,50vw, 2000px);
+}
+
+@media (max-width: 900px) {
+  .form-body {
+    width: 100%;
+  }
+}
