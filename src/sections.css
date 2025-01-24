@@ -1,14 +1,14 @@
 .section {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     padding: 1rem;
     place-content: space-around;
+    border-bottom: 2px dotted lightgray;
+    gap: 2rem;
 }
 
 .section.general {
     flex: 0.5 1 0;
-    gap: 2rem;
 }
 
 .section.education {
@@ -53,9 +53,5 @@
     .date,
     .info {
         width: 100%
-    }
-    .contacts {
-        place-content: space-around;
-        gap: 8px;
     }
 }

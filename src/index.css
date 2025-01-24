@@ -2,6 +2,8 @@
 :root {
   font-family: Abeezee;
   font-size: clamp(1rem, 1.5vh, 2.5rem);
+  background-color: #242424;
+  color: white;
 }
 
 body {
@@ -20,7 +22,6 @@ body {
   display: flex;
   flex: 1 1 0;
   flex-direction: column;
-  border: 1px solid red;
   width: clamp(900px,50vw, 2000px);
 }
 
